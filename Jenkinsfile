@@ -7,7 +7,7 @@ pipeline {
         stage('vcs') {
             steps {
                 git url: 'https://github.com/khajadevopsmarch23/StudentCoursesRestAPI',
-                    branch: 'develop'
+                    branch: 'sprint'
             }
         }
         stage('build') {
